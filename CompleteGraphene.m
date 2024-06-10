@@ -409,15 +409,15 @@ hold on
 %             Graph Settin               %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 title('Graphene Band diagram for High Symmetry K points','FontSize'...
-    ,10,'FontWeight','bold')
+    ,18,'FontWeight','bold')
 mylabelx=[0.5, 30.5 , 60.5,78, 33, 33, 33 , 33 , 33 , 33 ];
 mylabely=[-19.5,-19.5,-19.5,-19.5, -8 , 14.5, -17 , -3 ,1.7, 28 ];
 labels = {'K','\Gamma','M','K', '\pi', '\pi*' ,'\sigma', ...
     '\sigma' , '\sigma*' , '\sigma*' };
 text(mylabelx,mylabely,labels,'VerticalAlignment',...
-    'bottom','FontSize',10,'FontWeight','bold')
-ylabel('Energy (eV)','FontSize',10,'FontWeight','bold')
-xlabel('High Symmetry k Points','FontSize',10,'FontWeight','bold')
+    'bottom','FontSize',18,'FontWeight','bold')
+ylabel('Energy (eV)','FontSize',18,'FontWeight','bold')
+xlabel('High Symmetry k Points','FontSize',18,'FontWeight','bold')
 xline(30)
 xline(60)
 xline(80)
